@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "prKk1VU+lo9p/48sK+balv+HbmLKzR64dsVhOa3di+9hc7BB65v6HM9L15HuDs+qu46Ki22hZBy7Kb/ADFXfKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kagu_rhick\\source\\repos\\My_Game_C_Sharp\\My_Game_C_Sharp\\My_Game_C_Sharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kagu_rhick\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\kagu_rhick\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\kagu_rhick\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
