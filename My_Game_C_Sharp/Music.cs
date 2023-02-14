@@ -36,7 +36,6 @@ class Music
 
 
     }
-
     public void Sound_Chapter_3() 
     {
         Console.SetCursorPosition(51, 12);
@@ -49,6 +48,21 @@ class Music
 
     }
 
+
+    public void Music_Sound()
+    {
+
+        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Menu music.wav");
+        players.Play();
+      
+    }
+    public void Music_Menu()
+    {
+
+        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_Menu_music.wav");
+        players.Play();
+
+    }
     public void Sound_Chapter_End() 
     {
         Console.SetCursorPosition(51, 12);

@@ -20,10 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="1_Prologue_part_1.txt" />
     <EmbeddedResource Include="Prologue_music.wav" />
-    <EmbeddedResource Include="watw.wav" />
-    <EmbeddedResource Include="zxc.wav" />
     <EmbeddedResource Include="Глава вторая.wav" />
     <EmbeddedResource Include="Глава первая.wav" />
     <EmbeddedResource Include="Глава третья.wav" />

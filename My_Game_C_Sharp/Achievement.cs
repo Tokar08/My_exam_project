@@ -86,79 +86,10 @@ public class PushAllAchievement : Achievement
 
 
 
-        //AchievementListGame.Add(new Achievement("Работа сделана", "Пройдите игру с любым исходом.", DateTime.Now));
+    
 
 
 }
 
 
 
-// Пример нормальной работы:
-//var All_Achievemen = new PushAllAchievement();
-//All_Achievemen.IsEmpy(All_Achievemen.AchievementListGame);
-//All_Achievemen.IsEmpy(a.all_push.AchievementListGame);
-//All_Achievemen.Show(a.all_push.AchievementListGame);
-
-
-
-
-// Пример отличной работы:
-
-//var All_Achievement = new PushAllAchievement();
-//All_Achievement.IsEmpy(a.all_push.AchievementListGame);
-
-//All_Achievement.Show(a.all_push.AchievementListGame);
-
-
-
-
-
-
-
-
-
-
-//public class test2
-//{
-//    public void Action()
-//    {
-
-//        var a = new Achievement("Конец", "Пройдите игру", DateTime.Now);
-
-
-
-
-//        a.CheckAchievement();
-//        int choose = Convert.ToInt32(Console.ReadLine());
-//        if (choose == 1)
-//        {
-//            a.CompleteAchievement();
-//            a.CheckAchievement();
-//        }
-//        else
-//            Console.WriteLine("no");
-
-
-//        a.CheckAchievement();
-//    }
-
-//}
-
-//public class Programm
-//{
-
-//    public static void Main()
-//    {
-
-//        var a = new Achievement("Начало конца", "Пройдите пролог", DateTime.Now);
-
-//        var b = new test2();
-//        b.Action();
-
-
-
-
-//    }
-
-
-//}
