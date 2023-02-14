@@ -65,8 +65,8 @@ public class Programm
     public static void Main()
     {
        
-        var a = new Menu();
-        a.mainMenu();
+        Menu menu = new Menu();
+        menu.mainMenu();
 
     }
 

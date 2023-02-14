@@ -1,6 +1,4 @@
-﻿
-
-public class Prologue : Menu
+﻿public class Prologue : Menu
 {
 
     public Achievement ach = new Achievement("Начало положено");
@@ -78,7 +76,6 @@ public class Prologue : Menu
 public class Chapter_1 : Prologue
 {
 
-    internal Music music = new Music();
     public  static GetNames getName = new GetNames();
 
     public Achievement alcohol_law = new Achievement("Сухой закон");

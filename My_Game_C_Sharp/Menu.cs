@@ -53,31 +53,21 @@
                     {
                         case 0:
                             Console.Clear();
-                            
-                         
                             a.AllChapters();
                             Console.Clear();
                             continue;
                         case 1:
                             Console.Clear();
-                           
                             a.AllAchievement();
-
                             Console.ReadLine();
                             Console.Clear();
                             continue;
 
-
-
                         case 2:
-
-
-                            return;
+                           return;
 
                     }
                     break;
-
-
 
             }
 
@@ -138,7 +128,7 @@
                         case 0:
                             honor.AddHonor();
                             honor.AddHonor();
-                            Console.WriteLine(honor.Honor);
+                         
                             Console.Clear();
                             Console.ResetColor();
 
@@ -146,7 +136,7 @@
                         case 1:
                             honor.AddHonor();
                             honor.RemoveHonor();
-                            Console.WriteLine(honor.Honor);
+                     
                             Console.Clear();
                             Console.ResetColor();
                             break;
@@ -159,7 +149,7 @@
                             Console.Clear();
                             honor.RemoveHonor();
                             honor.RemoveHonor();
-                            Console.WriteLine(honor.Honor);
+                          
                             Console.Clear();
                             Console.ResetColor();
                             break;

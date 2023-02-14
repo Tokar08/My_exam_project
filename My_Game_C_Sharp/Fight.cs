@@ -3,7 +3,7 @@
     public int HeroHp { get; set; }
 
     public int HeroDamage { get; set; }
-    public string HeroName { get; set; }
+    public string? HeroName { get; set; }
 
     public int EnemyHp { get; set; }
 
@@ -43,19 +43,24 @@
 
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write($"\nHp у {HeroName}: {HeroHp}");
+
                     Console.ForegroundColor = ConsoleColor.Red;
+
                     Console.Write($"\t\t\t\t\tHp у {SecondEnemyName}: {EnemyHp}");
+
                     Console.ResetColor();
 
 
 
                     EnemyHp -= HeroDamage;
                     HeroHp -= EnemyDamage;
-                    Console.ForegroundColor = ConsoleColor.Green;
 
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write($"\n{HeroName} нанес: {HeroDamage}");
+
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"\t\t\t\t\t{EnemyName} нанес: {EnemyDamage}\n");
+
                     Console.ResetColor();
 
                     if (EnemyHp == 0)

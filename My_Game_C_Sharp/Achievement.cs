@@ -1,7 +1,4 @@
-﻿
-// Достижения которые игрок получает во время игры
-
-public class Achievement
+﻿public class Achievement
 {
     public string? Name_Of_Achievement { get; set; }
 
@@ -61,33 +58,6 @@ public class PushAllAchievement : Achievement
     public PushAllAchievement() { }
 
     public List<Achievement> AchievementListGame = new List<Achievement>();
-
-
- 
-        ////Достижения пролога:
-        //AchievementListGame.Add(new Achievement("Начало положено", "Пройдите пролог", DateTime.Now));
-
-        ////Достижения Глава 1:
-        //AchievementListGame.Add(new Achievement("Сухой закон", "Откажитесь от выпивки в таверне", DateTime.Now));
-        //AchievementListGame.Add(new Achievement("Загадочный доктор", "Познакомьтесь с Эмилем Форсманом.", DateTime.Now));
-        //AchievementListGame.Add(new Achievement("Будем знакомы", "Выберите имя для своего персонажа.", DateTime.Now));
-        //AchievementListGame.Add(new Achievement("Загадочный коронер", "Познакомьтесь с Балианом Мейером.", DateTime.Now));
-        //AchievementListGame.Add(new Achievement("Загадочный Преподобный", "Познакомьтесь с Роем Вильмериусом.", DateTime.Now));
-        //AchievementListGame.Add(new Achievement("Первые шаги", "Пройдите 1 главу.", DateTime.Now));
-        ////Достижения Глава 2:
-
-        //AchievementListGame.Add(new Achievement("Падальщик", "Познакомьтесь с Бризгоном.", DateTime.Now));
-        //AchievementListGame.Add(new Achievement("Записки Карателя", "Пройдите 2 главу.", DateTime.Now));
-
-        ////Достижения Глава 3:
-        //AchievementListGame.Add(new Achievement("Тени Прошлого", "Узнайте истории становления Эмиля, Роя и Балиана.", DateTime.Now));
-        //AchievementListGame.Add(new Achievement("Наследница", "Познакомтесь с Каей.", DateTime.Now));
-        //AchievementListGame.Add(new Achievement("Верный друг", "Выберите имя для своей лошади.", DateTime.Now));
-
-
-
-    
-
 
 }
 
