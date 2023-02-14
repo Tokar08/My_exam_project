@@ -7,7 +7,7 @@ class Music
     {
         Console.SetCursorPosition(51, 12);
         Console.WriteLine("Пролог");
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Пролог.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Пролог.wav");
         player.Play();
         Console.ReadLine();
         Console.Clear();
@@ -17,7 +17,7 @@ class Music
         Console.SetCursorPosition(51, 12);
         Console.WriteLine("Глава 1");
 
-        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Глава первая.wav");
+        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Глава первая.wav");
         players.Play();
         Console.ReadLine();
         Console.Clear();
@@ -29,7 +29,7 @@ class Music
         Console.SetCursorPosition(51, 12);
         Console.WriteLine("Глава 2");
 
-        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Глава вторая.wav");
+        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Глава вторая.wav");
         players.Play();
         Console.ReadLine();
         Console.Clear();
@@ -41,7 +41,7 @@ class Music
         Console.SetCursorPosition(51, 12);
         Console.WriteLine("Глава 3");
 
-        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Глава третья.wav");
+        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Глава третья.wav");
         players.Play();
         Console.ReadLine();
         Console.Clear();
@@ -52,14 +52,14 @@ class Music
     public void Music_Sound()
     {
 
-        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Menu music.wav");
+        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Menu music.wav");
         players.Play();
       
     }
     public void Music_Menu()
     {
 
-        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_Menu_music.wav");
+        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\All_Menu_music.wav");
         players.Play();
 
     }
@@ -68,7 +68,7 @@ class Music
         Console.SetCursorPosition(51, 12);
         Console.WriteLine("Конец");
 
-        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Конец.wav");
+        SoundPlayer players = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Конец.wav");
         players.Play();
         Console.ReadLine();
         Console.Clear();
@@ -77,7 +77,7 @@ class Music
     {
 
 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Prologue_music.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Prologue_music.wav");
         player.Play();
 
     }
@@ -85,7 +85,7 @@ class Music
     {
 
 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_1_normal_music.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_1_normal_music.wav");
         player.Play();
 
     }
@@ -93,56 +93,56 @@ class Music
     {
 
 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_1_aggresive_music.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_1_aggresive_music.wav");
         player.Play();
 
     }
     public void Chapter_1_Main_square()
     {
 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_1_main_square.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_1_main_square.wav");
         player.Play();
 
     }
     public void Chapter_1_severage()
     {
 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_1_sewerage.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_1_sewerage.wav");
         player.Play();
 
     }
     public void Chapter_1_Unpleasant_meeting_music()
     {
 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_1_Unpleasant_meeting.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_1_Unpleasant_meeting.wav");
         player.Play();
 
     }
     public void Chapter_1_detail_history()
     { 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_1_detail_history.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_1_detail_history.wav");
         player.Play();
      }
     public void Chapter_2_Near_the_dead()
     {
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_2_Near_the_dead.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_2_Near_the_dead.wav");
         player.Play();
     }
     public void Chapter_3_In_the_mortuary()
     {
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_3_In_the_mortuary.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_3_In_the_mortuary.wav");
         player.Play();
     }
 
     public void Chapter_3_Baroness_in_dangery()
     {
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_3_Baroness_in_danger.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_3_Baroness_in_danger.wav");
         player.Play();
     }
 
     public void Chapter_3_Meeting_with_Kaya() 
     {
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_3_ Meeting_with_Kaya.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_3_ Meeting_with_Kaya.wav");
         player.Play();
 
 
@@ -151,14 +151,14 @@ class Music
 
     public void Chapter_3_Back_to_tavern()
     {
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\Chapter_3_Back_to_tavern.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_3_Back_to_tavern.wav");
         player.Play();
 
 
     }
     public void Chapter_3_Killer_found()
     {
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\\Chapter_3_Killer_found.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_3_Killer_found.wav");
         player.Play();
 
 
@@ -166,7 +166,7 @@ class Music
 
     public void Chapter_3_Last_Fight() 
     {
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\\Chapter_3_Last_Fight.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_3_Last_Fight.wav");
         player.Play();
 
     }
@@ -174,14 +174,14 @@ class Music
     public void Chapter_3_Bad_ending()
     {
 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\\Chapter_3_Bad_ending.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_3_Bad_ending.wav");
         player.Play();
 
     }
     public void Chapter_3_Good_ending()
     {
 
-        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\\Chapter_3_Good_ending.wav");
+        SoundPlayer player = new SoundPlayer(@"C:\Users\kagu_rhick\source\repos\My_Game_C_Sharp\My_Game_C_Sharp\All_music\Chapter_3_Good_ending.wav");
         player.Play();
 
     }

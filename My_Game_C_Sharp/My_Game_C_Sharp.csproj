@@ -20,14 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Prologue_music.wav" />
-    <EmbeddedResource Include="Глава вторая.wav" />
-    <EmbeddedResource Include="Глава первая.wav" />
-    <EmbeddedResource Include="Глава третья.wav" />
-    <EmbeddedResource Include="Пролог.wav" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="System.Windows.Extensions" Version="7.0.0" />
   </ItemGroup>
 
